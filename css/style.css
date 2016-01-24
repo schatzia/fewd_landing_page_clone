@@ -1,6 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body{
 	background: LightGray;
-	-webkit-font-smoothing: antialiased;
 }
 div{
 	border: 1px solid Chocolate;
@@ -15,7 +20,6 @@ div{
 	margin: 0 auto;
 }
 .content{
-	box-sizing: border-box;
 	padding: 0 15px;
 }
 	
@@ -25,28 +29,23 @@ div{
 .top-navigation .links{
 	float: right;
 	margin-top: 24px;
+	color: #838994;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
 }
-
-.top-navigation .links a, a:visited{
-	transition: color 0.5s ease;
-	color: #4c5058;
-	text-decoration: none;
+.top-navigation .links li{
+	display: inline-block;
+	letter-spacing: 0.02em;
+	margin-left: 25px;
 }
-.top-navigation .links a:hover{
-	transition: color 0.5s ease;
-	color: #000;
-}
-
 .top-navigation .links .active{
 	color:#4c5058;
 	font-weight: 500;
+	text-decoration: none;
 }
-.links > li{
-	display: inline-block;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.02em;
-	margin-left: 25px;
-	
+.top-navigation .links li:hover{
+	transition: color 0.5s ease;
+	color: #000;
+	cursor: pointer;
 }
