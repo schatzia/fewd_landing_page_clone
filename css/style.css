@@ -1,5 +1,6 @@
 body{
 	background: LightGray;
+	-webkit-font-smoothing: antialiased;
 }
 div{
 	border: 1px solid Chocolate;
@@ -13,7 +14,39 @@ div{
 	height: 70px;
 	margin: 0 auto;
 }
+.content{
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+	
 .logo{
-	margin-left: 14px;
 	height: 70px;
+}
+.top-navigation .links{
+	float: right;
+	margin-top: 24px;
+}
+
+.top-navigation .links a, a:visited{
+	transition: color 0.5s ease;
+	color: #4c5058;
+	text-decoration: none;
+}
+.top-navigation .links a:hover{
+	transition: color 0.5s ease;
+	color: #000;
+}
+
+.top-navigation .links .active{
+	color:#4c5058;
+	font-weight: 500;
+}
+.links > li{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.02em;
+	margin-left: 25px;
+	
 }
