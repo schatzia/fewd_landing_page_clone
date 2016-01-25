@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Roboto", sans serif;
+  font-family: "Roboto", sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -98,3 +98,31 @@ button:hover{
 	background: #902a09;
 	cursor: pointer;
 }
+.cases{
+	margin: 0 auto;
+	text-align: center;
+}
+.cases .content{
+	text-align: center;
+}
+.cases .devices{
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 4em;
+}
+.content h2{
+	color: #000;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2.75rem;
+	margin-top: 7.75rem;
+}
+figure {
+	display: inline-block;
+	width: auto;
+}
+figure > img{
+	width: 127px;
+}
+
