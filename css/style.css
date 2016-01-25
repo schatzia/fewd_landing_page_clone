@@ -29,7 +29,6 @@ div{
 .top-navigation .links{
 	float: right;
 	margin-top: 24px;
-	color: #838994;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
@@ -38,14 +37,28 @@ div{
 	display: inline-block;
 	letter-spacing: 0.02em;
 	margin-left: 25px;
+	text-decoration: none;
 }
-.top-navigation .links .active{
+ li.active{
 	color:#4c5058;
 	font-weight: 500;
 	text-decoration: none;
 }
-.top-navigation .links li:hover{
+
+.top-navigation .links li a{
+	text-decoration: none;
+	color: #838994;
+}
+.top-navigation .links li a:hover{
 	transition: color 0.5s ease;
 	color: #000;
 	cursor: pointer;
+}
+
+.middle-section{
+	background-image: url("../images/first-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-align: center; 
+	height: 45.938rem;
 }
