@@ -125,4 +125,7 @@ figure {
 figure > img{
 	width: 127px;
 }
-
+figcaption{
+	font-size: 1.2rem;
+	font-weight: 400;
+}
