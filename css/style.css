@@ -140,8 +140,10 @@ figcaption{
 .icons >li{
 	display: inline-block;
 	margin-right: 1.5em;
-	border: 1px solid #ccc;
-	border-radius: 1px
+	border: 1px solid #a6a6a6;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
 }
 .icons >li:hover{
 	cursor: pointer;
