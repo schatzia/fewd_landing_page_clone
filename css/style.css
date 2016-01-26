@@ -130,3 +130,26 @@ figcaption{
 	font-size: 1.2rem;
 	font-weight: 400;
 }
+.social .content p{
+	text-align: center;
+}
+.icons{
+	text-align: center;
+}
+
+.icons >li{
+	display: inline-block;
+	margin-right: 1.5em;
+	border: 1px solid #ccc;
+	border-radius: 1px
+}
+.icons >li:hover{
+	cursor: pointer;
+}
+
+p.copyright{
+	color: #838994;
+	font-weight: 300;
+	font-size: 14px;
+
+}
