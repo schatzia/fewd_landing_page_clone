@@ -6,12 +6,8 @@ html {
   box-sizing: inherit;
 }
 body{
-	background: LightGray;
+	/* background: LightGray;  */
 }
-div{
-	border: 1px solid Chocolate;
-}
-
 h1, h3{
 	display: block;
 }
@@ -130,6 +126,9 @@ figcaption{
 	font-size: 1.2rem;
 	font-weight: 400;
 }
+.social{
+	padding: 8rem 0;
+}
 .social .content p{
 	text-align: center;
 }
@@ -137,15 +136,16 @@ figcaption{
 	text-align: center;
 }
 
-.icons >li{
+.social .icons >li{
 	display: inline-block;
 	margin-right: 1.5em;
 	border: 1px solid #a6a6a6;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
+	padding:10px 8px;
 }
-.icons >li:hover{
+.social .icons >li:hover{
 	cursor: pointer;
 }
 
